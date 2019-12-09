@@ -1,0 +1,18 @@
+CREATE DATABASE pruebapage;
+
+USE pruebapage;
+
+CREATE TABLE cliente(
+	id int  primary key ,
+	name VARCHAR(150),
+	lastname VARCHAR(150) ,
+	age int,
+	birthdate varchar(200));
+	
+	
+
+INSERT INTO cliente VALUES (1001,'Jose', 'sanchez', 23,'12/12/1995');
+INSERT INTO cliente VALUES (1002,'John', 'soto', 25,'10/11/1993');
+INSERT INTO cliente VALUES (1003,'Jane', 'vasquez', 45,'12/08/1975');
+
+select * from cliente

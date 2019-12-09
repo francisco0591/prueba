@@ -1,0 +1,6 @@
+ejecutar primero la base de datos
+
+la prueba lo hice con ide sts source
+las pruebas con swagger y postman
+
+Saludos.
